@@ -1,7 +1,7 @@
 /* colors and fonts */
 
 body{
-background-color: #F7F9FC;
+background: linear-gradient(to bottom, #F8F4EA, #FEFAE0);
 color: #575F7D;
 font-family: 'Lora', serif;
 font-size: 17px;
@@ -11,12 +11,12 @@ h1, h2, h3 {
 	font-family: 'Roboto', sans-serif;
 }
 h1 {
-	color: #575F7D;
+	color: #226089;
 	font-size: 32px;
 	font-weight: 900;
 }
 h2 {
-	color: #7D9D9C;
+	color: #4592AF;
 	font-size: 20px;
 	font-weight: lighter;
 	font-weight: 500;
@@ -26,7 +26,7 @@ a {
 	text-decoration: none;
 	color: #6B72E1;
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 15px;
 }
 a:hover {
 	color: black;
@@ -35,7 +35,7 @@ a:hover {
 /* Custom design with class (99% of the design)*/
 .container{
 	width: 700px;
-	margin: 40px auto;
+	margin: 60px auto;
 }
 
 @media (max-width: 760px) {
@@ -51,10 +51,10 @@ a:hover {
 }
 
 .card-white{
-	background-color: 40px;
-	padding: 40px;
-	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
-	border-radius: 4px;
+	background-color: #F8F4EA;
+	padding: 30px;
+	box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+	border-radius: 7px;
 	margin: 20px 0px;
 	text-align: center;
 }
@@ -62,16 +62,17 @@ a:hover {
 	border-radius: 50%;
 }
 .btn-blue{
-	background-color: #6B72E1;
+	background-color: #A84448;
 	color: white;
-	padding: 15px 20px;
+	padding: 10px 20px;
 	border-radius: 4px;
+	margin-right: 20px;
 }
 .btn-blue: hover {
-	background-color: darkgrey;
+	background-color: grey;
 	color: white;
 }
-.list-inline{
+.list-inline {
 	list-style: none;
 	padding-left: 0px;
 }
@@ -88,11 +89,6 @@ a:hover {
 }
 
 /* Design adjustments using id (1% of the design remaining)*/
-#introduction p {
-	margin-bottom: 40px;
-}
-
-
 
 
 
